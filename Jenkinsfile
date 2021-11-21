@@ -17,6 +17,7 @@ pipeline {
                 echo "${MyName}"
                 echo "${MyVariable}"
                 echo "${MyVariable1}"
+                
             }
         }
        
