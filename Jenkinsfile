@@ -1,12 +1,13 @@
 pipeline {
     agent any
-    parameters {
-        string(name: 'MyName', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
-    }
+     //parameters {
+      //  string(name: 'MyName', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
+//    }
+
     environment { 
         DevPublishPort = '1045'
         ProdPublishPort = '1046'
-        MyVariable = 'gValue Here'
+      MyVariable = 'gValue Here'
     }
     stages {
         stage('printing variables'){
