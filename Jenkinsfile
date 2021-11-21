@@ -1,8 +1,8 @@
 pipeline {
     agent any
-     //parameters {
-      //  string(name: 'MyName', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
-//    }
+     parameters {
+        string(name: 'MyName', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
+  }
 
     environment { 
         DevPublishPort = '1045'
