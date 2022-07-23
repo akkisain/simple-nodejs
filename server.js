@@ -7,8 +7,8 @@ const port = 8080
 app.use(express.json());
 
 let user = {
-  name: "Saurav",
-  city: "Jaipur"
+  name: "amit",
+  city: "Dausa"
 }
 
 app.get('/', function(req, res){
